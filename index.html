@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<!-- Richard Davies, Data Science 2021 -->
+
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+    
+  <link rel="stylesheet" href="index.css">
+
+<!--The next three lines allow the Vega embed-->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+</head>
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+
+<body>
+
+  <h1>Data Science</h1>
+  <h3>By Rhys Jones</h3>
+
+<!--Chart 1 -->
+<div class="chart" id="chart1">
+    <script>
+      var myChart1 = "Firstchart.json";
+      vegaEmbed('#chart1', myChart1);
+    </script>
+</div>
+
+<p>This is my first chart showing covid cases by region in the UK</p>
+
+<!--Chart 2 -->
+<div class="chart" id="chart2">
+    <script>
+      var myChart2 = "chart2_ukProductivity.json";
+      vegaEmbed('#chart2', myChart2);
+    </script>
+</div>
+
+<p> My second chart looking at productivity levels in the UK over time</p>
+
+
+</body>
+<!-- ///////////////////  END BODY //////////////////////////////////// -->
+
+</html>

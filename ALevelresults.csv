@@ -1,0 +1,7 @@
+﻿location,location_code,geographic_level,time_period,qualification,school_type,characteristic_gender,astar_grade_achieved,a_grade_achieved,b_grade_achieved,c_grade_achieved,d_grade_achieved,e_grade_achieved,q_grade_achieved,u_grade_achieved,x_grade_achieved
+England,E92000001,country,2019,A level,All schools,Female,25112,58538,85161,75159,43841,18126,117,5641,438
+England,E92000001,country,2019,A level,All schools,Male,23372,47854,64419,61829,41447,19316,45,7318,505
+England,E92000001,country,2020,A level,All schools,Female,48345,81058,87175,63795,23380,6403,41,417,456
+England,E92000001,country,2020,A level,All schools,Male,39451,59730,66746,57385,26735,8774,33,683,403
+England,E92000001,country,2021,A level,All schools,Female,69528,88495,82849,53026,19929,7216,15,940,381
+England,E92000001,country,2021,A level,All schools,Male,54635,65830,65963,51574,24676,10623,18,1587,326

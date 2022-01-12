@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://api.allorigins.win/raw?url=https://api.ons.gov.uk/timeseries/abmi/dataset/pn2/data",
+      "format": {"type": "json", "property": "years"}
+    },
+    "title": {
+      "text": "UK Gross Domestic Product",
+      "fontSize": 16,
+      "subtitle": "Chained volume measures: Seasonally adjusted £m. Source: ONS API",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 12,
+      "anchor": "start",
+      "color": "black"
+    },
+    "width": "container",
+    "height": 300,
+    "mark": {"type": "line", "color": "seagreen", "strokeWidth": 2, "opacity": 1},
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "axis": {"grid": false},
+        "title": null
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "axis": {"grid": false},
+        "title": "GDP"
+      }
+    }
+  }

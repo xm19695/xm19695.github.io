@@ -10,20 +10,7 @@
     },
     "data": {
       "values": [
-        {"year": "2005", "Expenditure": "7687"},
-        {"year": "2006", "Expenditure": "8097"},
-        {"year": "2007", "Expenditure": "7857"},
-        {"year": "2008", "Expenditure": "8141"},
-        {"year": "2009", "Expenditure": "8021"},
-        {"year": "2010", "Expenditure": "8468"},
-        {"year": "2011", "Expenditure": "8975"},
-        {"year": "2012", "Expenditure": "9901"},
-        {"year": "2013", "Expenditure": "9545"},
-        {"year": "2014", "Expenditure": "10738"},
-        {"year": "2015", "Expenditure": "11162"},
-        {"year": "2016", "Expenditure": "11768"},
-        {"year": "2018", "Expenditure": "10483"},
-        {"year": "2019", "Expenditure": "10309"}
+        {"year": "2005", "Expenditure": "7687"}, {"year": "2006", "Expenditure": "8097"}, {"year": "2007", "Expenditure": "7857"},{"year": "2008", "Expenditure": "8141"}, {"year": "2009", "Expenditure": "8021"}, {"year": "2010", "Expenditure": "8468"}, {"year": "2011", "Expenditure": "8975"}, {"year": "2012", "Expenditure": "9901"}, {"year": "2013", "Expenditure": "9545"}, {"year": "2014", "Expenditure": "10738"}, {"year": "2015", "Expenditure": "11162"}, {"year": "2016", "Expenditure": "11768"}, {"year": "2018", "Expenditure": "10483"}, {"year": "2019", "Expenditure": "10309"}
       ]
     },
     "height": 300,

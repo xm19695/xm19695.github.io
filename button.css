@@ -1,0 +1,25 @@
+/* this is my button css */
+
+.dashboardButton{
+    background-color: rgb(0, 47, 255);
+    border: 1px solid rgb(0, 47, 255);
+    color: rgb(255,255,255);
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    font-weight: 800;
+    border-radius: 450px;
+    box-sizing: content-box;
+    align-items: flex-start;
+    display: inline-block;
+    font-size: 12px;
+    margin: 1px 2px 1px 2px;
+    text-decoration: none;
+    max-width: 100px;
+    outline-offset: 2px;
+    overflow: hidden;
+    padding: 5px 12px;
+    text-align: left;
+    text-overflow: ellipsis;
+    transition: border-color,background-color .5s ease;
+    white-space: nowrap;
+  }

@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Expenditure on sporting services in the UK, 2005-2019",
+      "subtitle": "In million GBP. Source: ONS",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "values": [
+        {"year": "2005", "Expenditure": "7687"},
+        {"year": "2006", "Expenditure": "8097"},
+        {"year": "2007", "Expenditure": "7857"},
+        {"year": "2008", "Expenditure": "8141"},
+        {"year": "2009", "Expenditure": "8021"},
+        {"year": "2010", "Expenditure": "8468"},
+        {"year": "2011", "Expenditure": "8975"},
+        {"year": "2012", "Expenditure": "9901"},
+        {"year": "2013", "Expenditure": "9545"},
+        {"year": "2014", "Expenditure": "10738"},
+        {"year": "2015", "Expenditure": "11162"},
+        {"year": "2016", "Expenditure": "11768"},
+        {"year": "2018", "Expenditure": "10483"},
+        {"year": "2019", "Expenditure": "10309"}
+      ]
+    },
+    "height": 300,
+    "width": "container",
+    "mark": {"type": "bar", "color": "#ff8800"},
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "nominal",
+        "axis": {"title": "Year", "grid": false, "ticks": false, "labelAngle": 45}
+      },
+      "y": {
+        "field": "Expenditure",
+        "type": "quantitative",
+        "title": "Spending ",
+        "axis": {"grid": false}
+      }
+    }
+  }

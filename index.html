@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<!-- Richard Davies, Data Science 2021 -->
+
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+    
+  <link rel="stylesheet" href="index.css">
+
+<!--The next three lines allow the Vega embed-->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+</head>
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+
+<body>
+
+  <h1>Data Science</h1>
+  <h3>By Rhys Jones</h3>
+
+<h2> Portfolio </h2>
+
+<h2> Week 1 - Site Production </h2>
+
+<p> The first weeks homework was to create a multi-page site hosted through github. Divided into a project and homework pages. </p>
+
+
+
+<h2> Week 2 - Embedding </h2>
+
+<!--Chart 1 -->
+<div class="chart" id="chart1">
+    <script>
+      var myChart1 = "Firstchart.json";
+      vegaEmbed('#chart1', myChart1);
+    </script>
+</div>
+
+<p>This is my first chart showing covid cases by region in the UK</p>
+
+<!--Chart 2 -->
+<div class="chart" id="chart2">
+    <script>
+      var myChart2 = "chart2_ukProductivity.json";
+      vegaEmbed('#chart2', myChart2);
+    </script>
+</div>
+
+<p> My second chart looking at productivity levels in the UK over time</p>
+
+<!--Chart 3 Crypto -->
+<div class="chart" id="chartCrypto">
+    <script>
+      var myChartCrypto = "CryptoGraph3.json";
+      vegaEmbed('#chartCrypto', myChartCrypto);
+    </script>
+</div>
+
+<p> This is my third graph showing the long-run price of bitcoin from 2016-2021.</p>
+
+<h2> Week 3 - Hosting Data </h2>
+
+<!--API Chart Cardiff vs Bristol vs Exeter-->
+<div class="chart" id="chartcovidcities">
+    <script>
+      var myChartcovidcities = "CovidrateCities.json";
+      vegaEmbed('#chartcovidcities', myChartcovidcities);
+    </script>
+</div>
+
+<p> This chart tracks live Covid cases in Bristol, Exeter and Cardiff. Using a UK government API to automatically update the data. </p>
+
+<!--comparison graph for week 3-->
+<div class="chart" id="chartcovidcities2">
+    <script>
+      var mychartcovidcities2 = "CovidrateCities2.json";
+      vegaEmbed('#chartcovidcities2', mychartcovidcities2);
+    </script>
+</div>
+
+<p> This chart shows Covid cases in alternate cities in the South West and Wales to the previous graph.However, the data used is from a raw file hosted on GitHub resulting in it not autoupdating.</p>
+
+<h2> Week 4 - Editing Data </h2>
+
+<h2> Week 5 - API Driven Charts </h2>
+
+<h2> Week 6 - API Fetch </h2>
+
+<h2> Week 7 - Scraper </h2>
+
+<h2> Week 8 - Data Stories (Economics Observatory Festival) </h2>
+<!--WEEK 8 CHART EDUCATION conference -->
+<div class="chart" id="chartAlevel">
+    <script>
+      var mychartAlevel = "week8gendergap.json";
+      vegaEmbed('#chartAlevel', mychartAlevel);
+    </script>
+</div>
+
+<p>At the Economic observatory conference a panelist stated that one of the effects of the pandemic was the gender gap within A-Level results had increased. This graph above compares the number A* grades between boys and girls from 2018 to 2021. Having completed this graph it shows an increased gap in results supporting the panelists argument. </p>
+
+<h2> Week 9 - Advanced Analytics </h2>
+
+<h2> Week 10 - Interactivity </h2>
+
+<h2> PROJECT </h2>
+
+<h3> Aims </h3>
+<p> The key aim of this project is to delve into the relationship between GDP and its affect on life expectancy. To observe whether regions of increased wealth have significant results in longer life-expectancy. WRITE SENTENCE ABOUT LIFE EXPECTANCY HERE. The visualisations used within this project are a collective combination of scatter plots. Bar and line charts. With the aim to challenge any conventional standpoint that economies should always target the greatest possible levels of GDP.</p>
+
+<h3> Data </h3>
+<p> A variety of sources were used to formulate the data for this project. With python in Google Colab and Excel allowing the data to be cleaned and merged. The UK regional data on life expectancy and GDP was downloaded directly from the ONS. The international data on life expectancy was downloaded directly from ……… Lastly, the data on the Gross National Income was downloaded using the World Bank API. </p>
+
+<h3> Life Expectancy and GDP in regions of the UK </h3>
+
+<!--GRAPH 1 of project will be gender life expectancy in the UK-->
+
+<P> Comments on graph 1 here</P>
+
+<p> The visualisation below shows UK GDP over time through an ONS API meaning the data is active and will have live updates. GDP is measured in millions of pounds and is adjusted for changes in price. When identifying GDP movements over the last decade it is clear there was an increase up until 2019 before GDP then falls, with a clear attribution to the global pandemic.</p>
+
+<!--Project chart 2-->
+<div class="chart" id="chart2projectGDP">
+    <script>
+      var mychart2projectGDP = "projectchart2GDP.json";
+      vegaEmbed('#chart2projectGDP', mychart2projectGDP);
+    </script>
+</div>
+
+<h3> Regression of GDP on Life Expectancy in UK regions </h3>
+
+<p> </p>
+
+<h3> Countries with the highest GDP per capita Vs Countries with the longest life expectancy rate</h3>
+
+<p> These bar charts show the top 30 countries in the world for life expectancy and GDP per capita. Evidently there are significant distinctions between the charts. You can hover your mouse over the bars to see each countries data.</p>
+
+<!--Project chart 5-->
+<div class="chart" id="chart5projectcountriesGDP">
+  <script>
+    var mychart5projectcountriesGDP = "projectchart5countriesGDP.json";
+    vegaEmbed('#chart5projectcountriesGDP', mychart5projectcountriesGDP);
+  </script>
+</div>
+
+<h3> Other factors that explain life expectancy </h3>
+
+<h3> Conclusion </h3>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<!-- ///////////////////  END BODY //////////////////////////////////// -->
+
+</html>

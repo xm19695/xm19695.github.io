@@ -1,0 +1,69 @@
+location,geographic_level,time_period,characteristic_gender,Life_Expectancy,characteristic_gender,Life_Expectancy
+England,region,2003,Male,76.50,Female,80.90
+England,region,2004,Male,76.85,Female,81.13
+England,region,2005,Male,77.23,Female,81.49
+England,region,2006,Male,77.52,Female,81.70
+England,region,2007,Male,77.77,Female,81.86
+England,region,2008,Male,78.07,Female,82.10
+England,region,2009,Male,78.37,Female,82.34
+England,region,2010,Male,78.78,Female,82.71
+England,region,2011,Male,79.09,Female,82.88
+England,region,2012,Male,79.29,Female,83.02
+England,region,2013,Male,79.44,Female,83.11
+England,region,2014,Male,79.46,Female,83.11
+England,region,2015,Male,79.53,Female,83.14
+England,region,2016,Male,79.55,Female,83.13
+England,region,2017,Male,79.63,Female,83.21
+England,region,2018,Male,79.76,Female,83.37
+England,region,2019,Male,79.40,Female,83.14
+Scotland,region,2003,Male,73.79,Female,79.03
+Scotland,region,2004,Male,74.23,Female,79.22
+Scotland,region,2005,Male,74.61,Female,79.53
+Scotland,region,2006,Male,74.81,Female,79.67
+Scotland,region,2007,Male,75,Female,79.82
+Scotland,region,2008,Male,75.35,Female,80.02
+Scotland,region,2009,Male,75.8,Female,80.28
+Scotland,region,2010,Male,76.23,Female,80.6
+Scotland,region,2011,Male,76.53,Female,80.74
+Scotland,region,2012,Male,76.8,Female,80.9
+Scotland,region,2013,Male,77.08,Female,81.07
+Scotland,region,2014,Male,77.12,Female,81.13
+Scotland,region,2015,Male,77.09,Female,81.14
+Scotland,region,2016,Male,77.02,Female,81.08
+Scotland,region,2017,Male,77.06,Female,81.08
+Scotland,region,2018,Male,77.16,Female,81.14
+Scotland,region,2019,Male,76.81,Female,80.98
+Wales,region,2003,Male,75.77,Female,80.3
+Wales,region,2004,Male,76.1,Female,80.53
+Wales,region,2005,Male,76.57,Female,80.91
+Wales,region,2006,Male,76.69,Female,81.07
+Wales,region,2007,Male,76.88,Female,81.21
+Wales,region,2008,Male,77.08,Female,81.37
+Wales,region,2009,Male,77.52,Female,81.63
+Wales,region,2010,Male,77.85,Female,82
+Wales,region,2011,Male,78.1,Female,82.11
+Wales,region,2012,Male,78.19,Female,82.21
+Wales,region,2013,Male,78.42,Female,82.3
+Wales,region,2014,Male,78.43,Female,82.27
+Wales,region,2015,Male,78.44,Female,82.34
+Wales,region,2016,Male,78.32,Female,82.25
+Wales,region,2017,Male,78.31,Female,82.3
+Wales,region,2018,Male,78.52,Female,82.32
+Wales,region,2019,Male,78.30,Female,82.06
+Northern Ireland,region,2003,Male,75.82,Female,80.54
+Northern Ireland,region,2004,Male,76.01,Female,80.83
+Northern Ireland,region,2005,Male,76.1,Female,80.97
+Northern Ireland,region,2006,Male,76.16,Female,81.19
+Northern Ireland,region,2007,Male,76.34,Female,81.19
+Northern Ireland,region,2008,Male,76.68,Female,81.31
+Northern Ireland,region,2009,Male,76.99,Female,81.43
+Northern Ireland,region,2010,Male,77.44,Female,81.85
+Northern Ireland,region,2011,Male,77.72,Female,82.13
+Northern Ireland,region,2012,Male,78.02,Female,82.3
+Northern Ireland,region,2013,Male,78.29,Female,82.31
+Northern Ireland,region,2014,Male,78.32,Female,82.3
+Northern Ireland,region,2015,Male,78.54,Female,82.31
+Northern Ireland,region,2016,Male,78.45,Female,82.31
+Northern Ireland,region,2017,Male,78.68,Female,82.38
+Northern Ireland,region,2018,Male,78.76,Female,82.55
+Northern Ireland,region,2019,Male,78.67,Female,82.39

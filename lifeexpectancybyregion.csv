@@ -1,0 +1,69 @@
+location,geographic_level,time_period,characteristic_gender,Life_Expectancy
+England,region,2003,Male,76.50
+England,region,2004,Male,76.85
+England,region,2005,Male,77.23
+England,region,2006,Male,77.52
+England,region,2007,Male,77.77
+England,region,2008,Male,78.07
+England,region,2009,Male,78.37
+England,region,2010,Male,78.78
+England,region,2011,Male,79.09
+England,region,2012,Male,79.29
+England,region,2013,Male,79.44
+England,region,2014,Male,79.46
+England,region,2015,Male,79.53
+England,region,2016,Male,79.55
+England,region,2017,Male,79.63
+England,region,2018,Male,79.76
+England,region,2019,Male,79.40
+Scotland,region,2003,Male,73.79
+Scotland,region,2004,Male,74.23
+Scotland,region,2005,Male,74.61
+Scotland,region,2006,Male,74.81
+Scotland,region,2007,Male,75
+Scotland,region,2008,Male,75.35
+Scotland,region,2009,Male,75.8
+Scotland,region,2010,Male,76.23
+Scotland,region,2011,Male,76.53
+Scotland,region,2012,Male,76.8
+Scotland,region,2013,Male,77.08
+Scotland,region,2014,Male,77.12
+Scotland,region,2015,Male,77.09
+Scotland,region,2016,Male,77.02
+Scotland,region,2017,Male,77.06
+Scotland,region,2018,Male,77.16
+Scotland,region,2019,Male,76.81
+Wales,region,2003,Male,75.77
+Wales,region,2004,Male,76.1
+Wales,region,2005,Male,76.57
+Wales,region,2006,Male,76.69
+Wales,region,2007,Male,76.88
+Wales,region,2008,Male,77.08
+Wales,region,2009,Male,77.52
+Wales,region,2010,Male,77.85
+Wales,region,2011,Male,78.1
+Wales,region,2012,Male,78.19
+Wales,region,2013,Male,78.42
+Wales,region,2014,Male,78.43
+Wales,region,2015,Male,78.44
+Wales,region,2016,Male,78.32
+Wales,region,2017,Male,78.31
+Wales,region,2018,Male,78.52
+Wales,region,2019,Male,78.30
+Northern Ireland,region,2003,Male,75.82
+Northern Ireland,region,2004,Male,76.01
+Northern Ireland,region,2005,Male,76.1
+Northern Ireland,region,2006,Male,76.16
+Northern Ireland,region,2007,Male,76.34
+Northern Ireland,region,2008,Male,76.68
+Northern Ireland,region,2009,Male,76.99
+Northern Ireland,region,2010,Male,77.44
+Northern Ireland,region,2011,Male,77.72
+Northern Ireland,region,2012,Male,78.02
+Northern Ireland,region,2013,Male,78.29
+Northern Ireland,region,2014,Male,78.32
+Northern Ireland,region,2015,Male,78.54
+Northern Ireland,region,2016,Male,78.45
+Northern Ireland,region,2017,Male,78.68
+Northern Ireland,region,2018,Male,78.76
+Northern Ireland,region,2019,Male,78.67

@@ -1,0 +1,61 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Highest GDP per capita Countries",
+    "title": {
+  
+      "text": "Top 30 countries by GDP per Capita",
+      "fontSize": 16,
+  
+      "subtitle": ["GDP per Capita, PPP (current international $).", "Source: World Bank"],
+  
+      "subtitleFontStyle":"italic",
+  
+      "subtitleFontSize":12,
+  
+      "anchor": "start",
+  
+      "color": "black"
+   },
+  
+    "data": {"url": "https://raw.githubusercontent.com/xm19695/xm19695.github.io/main/GDPpercapitacountries.csv"},
+  
+    "params": [
+        {"name": "highlight", "select": {"type": "point", "on": "mouseover"}}
+    ],
+    
+    
+    "mark":{ 
+  
+        "type": "bar",
+  
+        "color": "#ffA500",
+  
+        "strokeWidth":2,
+  
+        "opacity":1
+  
+   
+  
+      },
+    "height": 300,
+    "width": "container",
+  
+    "encoding": {
+      "y": {"field": "Country name", "type": "ordinal", "sort":[], "title": null},
+  
+  
+  
+  
+      "x": {"field": "GDPperCapita", "type": "quantitative", "title": null},
+   
+  
+      "fillOpacity": {
+        "condition": {"param": "highlight", "value": 1},
+        "value": 0.6
+      },
+  
+      "tooltip":[
+        {"field":"Country name", "title":"Country"},
+        {"field":"GDPperCapita", "title":"GDP per Capita", "format": ".0f"}
+      ]}
+  }

@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "EU participation in physical activity - by educational attainment",
+      "subtitle": "The mean % of people engaging in Physical activity in the EU in 2014. Source: Eurostat.",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/xm19695/xm19695.github.io/main/PhysicalActivityEducation.csv"
+    },
+    "height": 300,
+    "width": "container",
+    "mark": {"type": "bar", "color": "#FFA500"},
+    "encoding": {
+      "y": {
+        "field": "ISCED11",
+        "type": "nominal",
+        "axis": {
+          "title": "",
+          "grid": false,
+          "ticks": false,
+          "labelLimit": 110,
+          "labelAngle": 0
+        }
+      },
+      "x": {
+        "field": "VALUE",
+        "type": "quantitative",
+        "title": "Participation (%)",
+        "axis": {"grid": false}
+      }
+    }
+  }

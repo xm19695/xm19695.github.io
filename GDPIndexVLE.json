@@ -1,0 +1,114 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/xm19695/xm19695.github.io/main/Regression_LEandGDPindex.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "title": {
+        "text": "Life Expectancy vs GDP - England",
+        "fontSize": 16,
+    "subtitle":["Average Life Expectancy vs GDP index (2019=100). Source: ONS"],
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 12,
+        "anchor": "start",
+        "color": "green"
+    },
+    "width": "container",
+    "height": 300,
+    "mark": {
+        "type": "point",
+        "color": "black",
+        "strokeWidth": 2,
+        "opacity": 1
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "point",
+                "filled": true,
+                "size": 80
+            },
+            "encoding": {
+                "x": {
+                    "field": "GDP_Index",
+                    "type": "quantitative",
+                    "scale": {"domain": [75, 110]},
+                    "axis": {
+                      "titleColor": "black",
+                      "titleFontSize": 12,
+                      "grid": false,
+                      "labelFontSize":10}
+                },
+                "y": {
+                    "field": "Life_Expectancy",
+                    "type": "quantitative",
+                    "scale": {"domain": [75, 80]},
+                    "axis": {
+                      "titleColor": "black",
+                      "titleFontSize": 12,
+                      "grid": false,
+                      "labelFontSize":10}
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "line",
+                "color": "orangered"
+            },
+            "transform": [
+                {
+                    "regression": "GDP_Index",
+                    "on": "Life_Expectancy"
+                }
+            ],
+            "encoding": {
+                "x": {
+                    "field": "GDP_Index",
+                    "type": "quantitative",
+                    "title":"GDP Index",
+                    "scale": {"domain": [85, 110]}
+        
+                },
+                "y": {
+                    "field": "Life_Expectancy",
+                    "type": "quantitative",
+                    "title":"Life Expectancy",
+                    "scale": {"domain": [75,80]}
+                    
+                }
+                    
+                }
+            },
+        
+          {
+            "transform": [
+                {
+                    "regression": "GDP_Index",
+                    "on": "Life_Expectancy",
+                    "params": true
+                },
+                {
+                    "calculate": "'R²: '+format(datum.rSquared, '.2f')",
+                    "as": "R2"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "color": "green",
+                "x": "width",
+                "align": "center",
+                "fontWeight": "bold",
+                "y": -10
+            },
+            "encoding": {
+                "text": {
+                    "type": "nominal",
+                    "field": "R2"
+                }
+            }
+        }
+    ]
+}

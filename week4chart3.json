@@ -13,7 +13,7 @@
     },
     "height": 300,
     "width": "container",
-    "mark": {"type": "bar", "color": "#FFA500"},
+    "mark": {"type": "bar", "color": "#00ccff"},
     "encoding": {
       "y": {
         "field": "ISCED11",
